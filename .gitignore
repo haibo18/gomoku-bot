@@ -1,0 +1,23 @@
+# ---- Python 生成物 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行时临时文件 ----
+gomoku_tmp/
+*.log
+bot_shot_*.png
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- 大体积交付物：不在 git 内，走 GitHub Release ----
+*.apk
