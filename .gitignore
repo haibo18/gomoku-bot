@@ -1,0 +1,26 @@
+# ---- Python 生成物 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行时临时文件 ----
+# adb pull / 截图临时目录（bot 运行时生成，非版本管理对象）
+gomoku_tmp/
+*.log
+# 调试性临时截图（保留正式对局截图目录，忽略零散临时图按需再调）
+bot_shot_*.png
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- 大体积交付物：不在 git 内，走 GitHub Release ----
+# 安装包 APK 由 Release 附件分发，避免触发单文件 100MB 限制
+*.apk
